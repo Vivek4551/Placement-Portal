@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: black;
+}
+#profileView{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#details{
+  margin: 2% 0 0 ;
+  padding: 2% 2% 0 2%;
+  width: 100%;
+  font-size: 1.2rem;
+  color: black;
+}
+#details img{
+  width: 180px;
+  height: 180px;
+  margin-left: 40%;
+  border:black solid 3px;
+}
+
+#details .pd{
+  height:50px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  padding-left:40%;
+  margin-top:30px;
+  border:  rgb(171, 249, 246) solid 1px;
+  background-color: rgb(157, 214, 240);
+}
+#announcBox{
+  margin: 25% 0 25% 5%;
+}
+#content .Career_Services_Registration h3{
+    text-align: center;
+    color: white;
+}
+.impNotes{
+  margin: 0 2% 2% 4%;
+}
+  #personal_detail{
+    margin: 0% 4% 4% 4%;
+    width: 93%;
+    display: inline-block;
+  }
+  #address{
+    margin: 0 2% 2% 4%;
+    width: 100%;
+  }
+  #usercurrenteducation,#useraddress,#placementpage{
+    height: 5vh;
+    padding-top:5px;
+    width: 100%;
+    background: rgb(157, 214, 240);
+    text-align: center;
+  }
+  #currentedu{
+    margin: 0 2% 2% 4%;
+  }
+
+.update{
+  padding: 5px;
+  width:10%;
+  border-radius: 25px;
+  background-color:rgb(129, 217, 242);
+  margin-top: 35px;
+  margin-left: 45%;
+  font-size: 1.2rem;
+}

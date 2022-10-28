@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/studentStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="box">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Placement Portal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Placement Portal</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="studentProfile.html">Profile View</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carerService.html">Registration</a>
+                </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="announcement.html">Announcement</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="upcomingDrive.html">Upcoming Drives</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="driveRegister.html">Drive Regestaion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="summery.html">Summary</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Logout</a>
+                  </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div>
+        <div class="Career_Services_Registration"style="margin-top:100px ; text-align:center;">
+            <h3>Career Services Registration</h3>
+        </div>
+        <hr>
+        <div class="impNotes"><br><br>
+          <h3>Important Rules:</h3>
+            <p>
+                <ol>
+                  <li>Students must be in formals while attending interview or webinars.</li>
+                  <li>Students should check eligibilty criteria before registering for any upcoming drive.</li>
+                  <li>For any query regarding placement drives , consult to your placement co-ordinator.</li>
+                  <li>Students must follow rules and regulations that has been published by the company as well as placement cell.</li>
+                </ol>
+            </p>
+        </div>
+            <br>
+            <div id="placementpage">
+                <h3>Personal Detail</h3>
+            </div>
+            <br>
+            <div id="personal_detail">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Name </label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Age </label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Height</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Mobile</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email ID</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Nationality</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Father Name</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Mother Name</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Father Occupation</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Mother Occupation</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Father Mobile No</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Mother Mobile No</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Mother Mobile No</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Father Email Id</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Father Income</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Mother Income</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      
+                  </form>
+                  <button type="button" class="update" onclick="updatedetail()">Update</button>
+            </div>
+            
+            <div id="useraddress">
+                <h3>Address</h3>
+            </div>
+            <div id="address">
+                <form action="/form/submit" method="post">
+                    <div><br>
+                        <h3>Permanent Address</h3><br>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="address">Address :</label>
+                            <label for="address">Dhanari</label>
+                        </div>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="district">District :</label>
+                            <label for="district">Rohtas</label>
+                        </div>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="pincode">PIN Code :</label>
+                            <label for="pincode">821115</label>
+                        </div>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="policestation">Police Station :</label>
+                            <label for="policestation">Sasaram</label>
+                        </div>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="state">State :</label>
+                            <label for="state">Bihar</label>
+                        </div>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="Country">Country :</label>
+                            <label for="Country">India</label>
+                        </div> 
+                    </div>
+                    <hr>
+                    <div><br>
+                        <h3>Correspondence Address </h3><br>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="address">Address :</label>
+                            <label for="address">LPU-Law gate</label>
+                        </div>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="district">District :</label>
+                            <label for="district">Kapurthala</label>
+                        </div>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="pincode">PIN Code :</label>
+                            <label for="pincode">144411</label>
+                        </div>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="policestation">Police Station :</label>
+                            <label for="policestation">Phagwara</label>
+                        </div>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="state">State :</label>
+                            <label for="state">Punjab</label>
+                        </div>
+                        <div class="placementinputField">
+                            <label class="lebelBold" for="Country">Country :</label>
+                            <label for="Country">India</label>
+                        </div>
+                    </div>
+                  </form>
+            </div>
+
+            <div id="usercurrenteducation">
+                <h3>Current Qualification Details</h3>
+            </div>
+            <div id="currentedu">
+                <form>
+                    <div id="infoleft"><br>
+                        <br>
+                        <div class="placementQualificationdetail">
+                            <label class="lebelBold" for="Program">Program :</label>
+                            <label for="Program">B.Tech. (Computer Science & Engineering)</label>
+                        </div>
+                        <div class="placementQualificationdetail">
+                            <label class="lebelBold" for="startyear">Starting Batch year :</label>
+                            <label for="startyear">2022</label>
+                        </div>
+                        <div class="placementQualificationdetail">
+                            <label class="lebelBold" for="passingyear">Passing Batch year :</label>
+                            <label for="passingyear">2024</label>
+                        </div>
+                    </div>
+                  </form>
+            </div>
+    </div>
+</div>
+    <script src="js/studentPopupforplacementReg.js"></script>
+    <script src="js/studentScript.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script>
+  function updatedetail() {
+    alert("Details has been updated");
+  }
+</script>
+</body>
+</html>

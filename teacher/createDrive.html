@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/studentStyle.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <title>Document</title>
+    <style>
+        #createDrive{
+            margin: 5% 1% 2% 1%;
+          }
+          h2{
+            text-align: center;
+            padding: 2px;
+            font-size: 2.5rem;
+          }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Placement Portal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Placement Portal</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="createDrive.html">Create Drive</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="viewDrive.html">View Drives</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listStudent.html">Actions</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="regstudent.html">Register Student</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="Teacherannouncement.html">Announcement</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="teacherSumm.html">Summary</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Logout</a>
+                  </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="createDrive" style="background: rgb(172, 233, 239);">
+        <h2>Create Drive</h2> <br>
+        <div>
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Drive Code</label>
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Ex - TE.24958.2024.34282">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Company Name</label>
+                  <input type="text" class="form-control" id="inputPassword4" placeholder="Tata Consultancy">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Name & Type of Event</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Select ...</option>
+                    <option value="1">COMPETETIVE EVENT</option>
+                    <option value="2">Internship</option>
+                    <option value="3">Placement</option>
+                    <option value="3">Internship / Placement</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Salary</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="₹ 50,000">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Designation</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="NA">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Eligibility</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="No Backlog">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Salary Package</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="Price / Salary">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Job Location</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="Noida / Delhi / Work From Home(WFH)">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Year Passing Out</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="2023 / 2024 / 2025">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Venue</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="From your Respective Location">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Drive Date</label>
+                  <input type="date" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Register By</label>
+                  <input type="date" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Eligible Gender</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option value="Boy">Boy</option>
+                    <option value="Girls">Girls</option>
+                    <option value="Transgender">Transgender</option>
+                    <option>Boy / Girls</option>
+                    <option>Boy / Girls / Transgender</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Last Date of Registration</label>
+                  <input type="date" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">About Company</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Compaany summary">
+                </div>
+              </form>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label"><strong>Program/Stream : </strong></label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">B.Tech CSE/IT</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">M.Tech CSE/IT (Companies)</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">B.Tech EEE</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">B.Tech ECE</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">B.Tech Automobile</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">MBA</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">B.Tech Aerospace Engineering</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">B.Tech ME Mechatronics</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">MBA (Dual/Integrated with BBA/B.Com)</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">MBA (Dual/Integrated with B.Tech)</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">M.Tech CSE/IT (Companies)</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+                    <label class="form-check-label" for="inlineCheckbox3">BCA</label>
+                </div>
+            </div>
+            <br>
+              <br>
+              <!-- drive publish button -->
+            <div class="col-12">
+                <button type="submit" id="publishDrive" class="btn btn-primary" onclick="createdrive()">Create</button>
+              </div>
+
+        </div>
+        </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script>
+  function createdrive(){
+    alert("Drive has been created");
+  }
+</script>
+
+</body>
+</html>

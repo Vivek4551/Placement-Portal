@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/studentStyle.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        #announcBox{
+            margin: 1% 0 0 0%;
+          }
+          #list-home table{
+            width: 100%;
+          }
+          #list-home table td{
+            width: 41%;
+            border-bottom: 1px solid black;
+            font-size: 1.3rem;
+          }
+          #data th,td{
+        /* margin: 20px; */
+        padding: 10px;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Placement Portal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Placement Portal</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="studentProfile.html">Profile View</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carerService.html">Registration</a>
+                </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="announcement.html">Announcement</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="upcomingDrive.html">Upcoming Drives</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="driveRegister.html">Drive Regestaion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="summery.html">Summary</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Logout</a>
+                  </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="summ">
+        <div class="Career_Services_Registration"style="margin-top:100px ; text-align:center;">
+          <h3>Summary</h3>
+      </div>
+      <hr>
+      <div id="announcBox" style="background: rgb(172, 228, 239);">
+        <div class="row">
+          <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Recent Drive</a>
+              <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
+              <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
+              
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <table >
+                  <tr>
+                      <th>Name</th>
+                      <th>Stream</th>
+                      <th>Salary Package</th>
+                  </tr>
+                  <tr> 
+                      <td>TCS</td>
+                      <td>MBA</td>
+                      <td>CTC Rs. 3.76 LPA</td>
+                  </tr>
+                  <tr> 
+                      <td>Infosis</td>
+                      <td>CSE/IT</td>
+                      <td>CTC Rs. 3.5 LPA</td>
+                  </tr>
+                  <tr> 
+                      <td>Capzamni</td>
+                      <td>Polytechnic</td>
+                      <td>CTC Rs. 4.6 LPA</td>
+                  </tr>
+                  <tr> 
+                      <td>Cognizent</td>
+                      <td>CSE/IT,MBA</td>
+                      <td>CTC Rs. 3.5 LPA</td>
+                  </tr>
+                  <tr> 
+                      <td>Adobe</td>
+                      <td>CSE/IT</td>
+                      <td>CTC Rs. 16.2 LPA</td>
+                  </tr>
+                  <tr> 
+                      <td>Google</td>
+                      <td>CSE/IT</td>
+                      <td>CTC Rs. 70.00 LPA</td>
+                  </tr>
+                  <tr> 
+                      <td>Meta</td>
+                      <td>CSE</td>
+                      <td>CTC Rs. 23.5 LPA</td>
+                  </tr>
+                  <tr> 
+                      <td>Amazon</td>
+                      <td>ECE</td>
+                      <td>CTC Rs. 43.5 LPA</td>
+                  </tr>
+                  <tr> 
+                      <td>Suzlon</td>
+                      <td>CSE</td>
+                      <td>CTC Rs. 3.5 LPA</td>
+                  </tr>
+              </table>
+
+              </div>
+              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <div id="data">
+                  <table>
+                    <tr>
+                      <th>Total Drives Held</th>
+                      <td>55</td>
+                    </tr>
+                    <tr>
+                      <th>Total Drives Eligible For</th>
+                      <td>53</td>
+                    </tr>
+                    <tr>
+                      <th>Total drives Registered in</th>
+                      <td>08</td>
+                    </tr>
+                    <tr>
+                      <th>Participated</th>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <th>Selected</th>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <th>Total Must Attend</th>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <th>Total May Attend</th>
+                      <td>36</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                <p>
+                  <ol>
+                    <li>
+Placements in the industry and alignment of career with role, brand and package is to be regarded
+as the most critical goals of professional education. Though learning must be recognized as an end
+in itself, it is important that professional education facilitates the process of career advancement
+of students. Moreover, it has been seen that right placement happens as much because of individual
+brilliance and aptitude as because of strategic preparedness. The university visualizes its role as a
+facilitator to bring about a radical change in the employability of its students. Consequently, a
+comprehensive placement policy has been framed keeping in mind the aspirations of the students,
+their parents and expectations of the industry.
+The Placement Services of the University will be available only to those students who opt to avail
+them and commit to abide by the requirements thereof.
+As per current recruitment trends, the recruitment activity starts early in pre-final year / semester
+(depending on the program). Students graduating in 2024 are required to gear up for being a part
+of placement related activities immediately at an early stage of their program.
+                    </li><br><br>
+                    <li>Aim of the policy :<br>
+                      i. To apprise students regarding the rules and regulations of the Career Services Policy and
+                      subsequent processes.<br>
+                      ii. To regulate procedures regarding taking part in placement processes and offers arising out
+                      of the same.<br>
+                      iii. To monitor the expected conduct of students during the processes and to specify the
+                      deterrents regarding unwarranted communication with companies or any other
+                      player/medium that might directly/indirectly affect the image of the university.<br>
+                      iv. To lay down provisions, procedure and process for accepting Job/Internship Offers.<br>
+                      v. To lay down guidelines for joining of students and related rules in terms of penalization
+                      and benefits.<br></li><br><br>
+                      <li>Applicability of the Policy :<br>
+                        This Policy shall be effective for all diploma, under-graduate and post-graduate programmes as
+                        mentioned below:<br>
+                        i. Applicable for students enrolled in stand-alone regular programs and graduating in 2024.<br>
+                        ii. Applicable for students in integrated/dual degree programmes expected to pass-out in 2024
+                        (by continuing /exiting dual degree).<br>
+                        iii. The policy is also applicable to International students enrolled in respective programs as
+                        categorized above.<br>
+                        iv. The policy is not applicable for students enrolled in ODL, Part-time, M.Phil., Ph.D., and
+                        Certificate programs.<br>
+                        v. The policy will be applicable till the last day of teaching of the final term ending in 2024.<br>
+                        Note:<br>
+                        i. A dual-degree student who did not opt for placement services in the lower degree will be
+                        allowed to register for career services now during the higher degree, after paying the
+                        prescribed PEP fee of the higher degree of 2024 as mentioned in Table T-1.<br>
+                        ii. A student, who completed the qualifying norms during the lower degree, or opted for career
+                        services with lower degree or was debarred or exited from placements services during
+                        lower degree, will be allowed to register for the placement services in the higher degree
+                        due to continuing dual degree or change of programme by paying prescribed PEP fee
+                        against higher degree for the program as mentioned in Table T-1.<br>
+                        iii. If a dual-degree student passing out after 2024 registers for career services under career
+                        services’ policy for 2024 batch with assumption of exiting from dual degree but later
+                        decides to continue with dual degree, for such students the career services’ policy of actual
+                        passing out batch will be applicable and will be required to pay the prescribed PEP fee
+                        again for the higher degree.<br></li><br><br>
+                  </ol>
+                </p>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
